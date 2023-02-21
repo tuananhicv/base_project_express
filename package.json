@@ -1,0 +1,24 @@
+{
+    "name": "cau_long",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon src/index.js",
+        "watch": "node-sass --watch src/resources/scss/ --output src/public/css/"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "express-handlebars": "^6.0.7",
+        "mongoose": "^6.9.2",
+        "mongoose-delete": "^0.5.4",
+        "nodemon": "^2.0.20"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20",
+        "node-sass": "^8.0.0"
+    }
+}
